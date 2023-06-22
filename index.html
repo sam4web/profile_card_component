@@ -10,9 +10,29 @@
       href="./src/assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor - Profile Card Component</title>
   </head>
   <body>
-    <div class="page-wrapper"></div>
+    <div
+      class="w-full h-screen bg-dark-cyan relative overflow-hidden"
+      id="page-wrapper"
+    >
+      <img
+        src="./src/assets/bg-pattern-top.svg"
+        alt=""
+        class="absolute -top-[410px] -left-[190px]"
+      />
+      <!-- /bg-pattern-top -->
+      <img
+        src="./src/assets/bg-pattern-bottom.svg"
+        alt=""
+        class="absolute -bottom-[500px] -right-[215px]"
+      />
+      <div id="profile-card"></div>
+      <!-- /profile-card -->
+
+      <!-- /bg-pattern-bottom -->
+    </div>
     <!-- /page-wrapper -->
     <script src="./src/script.js"></script>
   </body>
