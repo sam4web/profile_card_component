@@ -9,29 +9,87 @@
       sizes="32x32"
       href="./src/assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./dist/output.css" />
     <title>Frontend Mentor - Profile Card Component</title>
+    <link rel="stylesheet" href="./dist/output.css" />
   </head>
   <body>
     <div
-      class="w-full h-screen bg-dark-cyan relative overflow-hidden"
+      class="w-full h-screen bg-dark-cyan relative overflow-hidden flex justify-center items-center"
       id="page-wrapper"
     >
       <img
+        draggable="false"
         src="./src/assets/bg-pattern-top.svg"
-        alt=""
-        class="absolute -top-[410px] -left-[190px]"
+        class="absolute -top-[380px] -left-[190px] select-none"
       />
       <!-- /bg-pattern-top -->
       <img
+        draggable="false"
         src="./src/assets/bg-pattern-bottom.svg"
-        alt=""
-        class="absolute -bottom-[500px] -right-[215px]"
+        class="absolute -bottom-[520px] -right-[200px] select-none"
       />
-      <div id="profile-card"></div>
-      <!-- /profile-card -->
-
       <!-- /bg-pattern-bottom -->
+
+      <div
+        id="profile-card"
+        class="max-w-[424px] w-full bg-white z-10 rounded-2xl"
+      >
+        <img
+          class="rounded-none rounded-t-[inherit] w-full h-[185px] select-none"
+          src="./src/assets/bg-pattern-card.svg"
+          draggable="false"
+        />
+        <!-- /bg-img -->
+        <div class="relative pt-[4.75rem] text-center mb-7">
+          <img
+            src="./src/assets/image-victor.jpg"
+            alt="person-img"
+            class="absolute w-[110px] h-[110px] rounded-full border-[5px] border-white bottom-[58%] left-[50%] translate-x-[-50%]"
+          />
+          <!-- /person-img -->
+          <h2
+            class="font-bold text-[22px] font-body text-dark-desaturated-blue"
+          >
+            Victor Crest
+            <span
+              class="ml-2 font-body font-normal text-[22px] text-dark-grayish-blue mb-1"
+            >
+              26
+            </span>
+          </h2>
+          <p class="font-normal text-base font-body text-dark-grayish-blue">
+            London
+          </p>
+        </div>
+        <!-- /person-detail -->
+
+        <div
+          class="flex justify-evenly text-center border-t-[1px] border-dark-gray py-6"
+        >
+          <div>
+            <h3 class="text-[22px] text-dark-desaturated-blue font-bold">
+              80K
+            </h3>
+            <p class="text-base text-dark-grayish-blue font-normal">
+              Followers
+            </p>
+          </div>
+          <div>
+            <h3 class="text-[22px] text-dark-desaturated-blue font-bold">
+              803K
+            </h3>
+            <p class="text-base text-dark-grayish-blue font-normal">Likes</p>
+          </div>
+          <div>
+            <h3 class="text-[22px] text-dark-desaturated-blue font-bold">
+              1.4K
+            </h3>
+            <p class="text-base text-dark-grayish-blue font-normal">Photos</p>
+          </div>
+        </div>
+        <!-- /stats -->
+      </div>
+      <!-- /profile-card -->
     </div>
     <!-- /page-wrapper -->
     <script src="./src/script.js"></script>

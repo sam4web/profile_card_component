@@ -4,11 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "watch": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "tailwindcss": "^3.3.2"
   },
-  "homepage": "https://sam4web.github.io/profile_card_component/"
+  "homepage": "https://sam4web.github.io/profile_card_component/",
+  "dependencies": {
+    "vite": "^4.3.9"
+  }
 }

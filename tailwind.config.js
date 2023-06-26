@@ -9,6 +9,9 @@ module.exports = {
         'dark-grayish-blue': 'hsl(227, 10%, 46%)',
         'dark-gray': 'hsl(0, 0%, 59%)',
       },
+      fontFamily: {
+        body: ['Kumbh Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
