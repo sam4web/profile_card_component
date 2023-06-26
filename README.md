@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 #### Links
 
-- Solution : [Solution URL]()
+- Solution : [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-reY7kZ0Un8)
 - Live Site : [Live Site URL](https://sam4web.github.io/profile_card_component/)
 
 ### Built with
