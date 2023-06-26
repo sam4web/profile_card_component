@@ -853,6 +853,10 @@ video {
   max-width: 420px;
 }
 
+.max-w-\[430px\]{
+  max-width: 430px;
+}
+
 .flex-shrink{
   flex-shrink: 1;
 }

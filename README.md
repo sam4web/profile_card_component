@@ -8,7 +8,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Author](#author)
 
 ### Overview
@@ -23,8 +23,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 #### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution : [Solution URL]()
+- Live Site : [Live Site URL](https://sam4web.github.io/profile_card_component/)
 
 ### Built with
 
